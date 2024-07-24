@@ -11,4 +11,41 @@ img {
 	margin: auto;
 	border: 5px solid black;
 	width: 516px;
+	height: 516px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#a {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+}
+
+#b {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+#c {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+#d {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+#e {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 100%;
 }
